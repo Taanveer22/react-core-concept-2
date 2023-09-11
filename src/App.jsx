@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './Counter';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
   return (
     <>
       <h3>React Core Concepts 2</h3>
+
+      <Counter></Counter>
 
       {/*when no paramater passed to the handleclick button   */}
 
