@@ -18,7 +18,7 @@ export default function Users() {
 
   return (
     <div style={usersBox}>
-      <h3>Users: {users.length}</h3>
+      <h1>Total Users: {users.length}</h1>
       {users.map((user) => (
         <User user={user}></User>
       ))}
@@ -31,6 +31,5 @@ export default function Users() {
  * 2. manage side effects by using useEffect(callbackFunction, dependency) hooks
  * 3. use fetch api to load the data
  * 4. set loaded data to the state
- *
  *
  */
